@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif; */
+
+.header {}
+
+.header_title {}
+
+.logo {}
+
+.burger {}
+
+.burger_line {}
+
+.h1 {}
+
+.h4 {}
