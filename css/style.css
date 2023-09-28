@@ -10,29 +10,102 @@ body {
     font-weight: 400;
 }
 .container {
-    max-width: 1100px;
-    background-color: #ddd;
+    max-width: 1110px;
     margin: 0 auto;
 }
 :root { /* переменные с цветом*/
     --accent-color: #F7654A;
+    --dark-color: #404149;
+    --gray-color: #999;
+    --white-color: #FFF;
+    --background-color: #E5E5E5;
+}
+.text-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.text-h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text-h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.text-p-reviews {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
 }
 
-/* font-family: 'Open Sans',
-sans-serif;
-font-family: 'Oswald',
-sans-serif; */
+.header {
+    min-height: 740px;
+    background-image: url(../img/first-screen-bg.jpg);
+    background-repeat: no-repeat; /* чтобы изображение не повторялось*/
+    background-size: cover; /* чтобы изображение вписывалось в свои размеры */
+}
 
-.header {}
+.header_title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 112px;
+}
 
-.header_title {}
+.logo {
+    width: 60px;
+    height: 60px;
+}
 
-.logo {}
+.burger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--accent-color); /* использование переменной*/
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.burger {}
+.burger_line {
+    display: block;
+    width: 21px;
+    height: 3px;
+    background-color: #FFF;
+    margin-bottom: 4px;
 
-.burger_line {}
+}
+.burger_line:last-child {
+    margin-bottom: 0;
+}
 
-.h1 {}
+.h1 {
+    font-weight: 500;
+    font-size: 64px;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    max-width: 734px;
+    margin: 0 auto 17px;
+    color: var(--white-color);
+}
 
-.h4 {}
+.h4 { 
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 734px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
