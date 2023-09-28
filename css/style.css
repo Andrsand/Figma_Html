@@ -6,6 +6,16 @@ html {
 }
 body {
     margin: 0; /* отступы у body нам не нужны*/
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.container {
+    max-width: 1100px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+:root { /* переменные с цветом*/
+    --accent-color: #F7654A;
 }
 
 /* font-family: 'Open Sans',
